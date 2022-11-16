@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.API\\Project.Ecommerce.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.API\\Project.Ecommerce.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.API\\Project.Ecommerce.API.csproj",
+        "projectName": "Project.Ecommerce.API",
+        "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.API\\Project.Ecommerce.API.csproj",
+        "packagesPath": "C:\\Users\\rranzani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rranzani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\Project.Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\Project.Ecommerce.Domain.csproj"
+              },
+              "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\Project.Ecommerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\Project.Ecommerce.Domain.csproj",
+        "projectName": "Project.Ecommerce.Domain",
+        "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\Project.Ecommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\rranzani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rranzani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj",
+        "projectName": "Project.Ecommerce.Infrastructure",
+        "projectPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\Project.Ecommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rranzani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rranzani\\Documents\\Renan\\Project.Ecommerce\\src\\server\\Project.Ecommerce\\Project.Ecommerce.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rranzani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

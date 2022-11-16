@@ -1,0 +1,15 @@
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\bin\Debug\net5.0\Project.Ecommerce.Domain.deps.json
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\bin\Debug\net5.0\Project.Ecommerce.Domain.dll
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\bin\Debug\net5.0\Project.Ecommerce.Domain.pdb
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\bin\Debug\net5.0\Project.Ecommerce.Infrastructure.dll
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\bin\Debug\net5.0\Project.Ecommerce.Infrastructure.pdb
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.csproj.CopyComplete
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.dll
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\refint\Project.Ecommerce.Domain.dll
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\Project.Ecommerce.Domain.pdb
+C:\Users\rranzani\Documents\Renan\Project.Ecommerce\src\server\Project.Ecommerce\Project.Ecommerce.Domain\obj\Debug\net5.0\ref\Project.Ecommerce.Domain.dll
