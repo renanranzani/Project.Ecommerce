@@ -9,6 +9,8 @@ namespace Project.Ecommerce.Infrastructure.Interfaces
     {
         Task<(IEnumerable<Products> list, int totalCount)> FindAsync();
         Task<(IEnumerable<Products> list, int totalCount)> FindByIdAsync(int id);
-        Task<Products> CreateAsync(ProductCommand command);
+        Task<Products> CreateProduct(ProductCommand command);
+        Task<Products> UpdateProduct(ProductCommand command, int id);
+        Task DeleteProduct(int id);
     }
 }

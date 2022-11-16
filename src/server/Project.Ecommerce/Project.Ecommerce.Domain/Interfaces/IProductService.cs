@@ -10,5 +10,7 @@ namespace Project.Ecommerce.Domain.Interfaces
         Task<(IEnumerable<Products> products, int totalCount)> GetAllAsync();
         Task<(IEnumerable<Products> products, int totalCount)> GetByIdAsync(int id);
         Task<Products> CreateAsync(ProductCommand command);
+        Task<Products> UpdateAsync(ProductCommand command, int id);
+        Task DeleteAsync(int id);
     }
 }

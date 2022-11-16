@@ -6,7 +6,6 @@ using Project.Ecommerce.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace Project.Ecommerce.Infrastructure.Repositories
@@ -73,7 +72,7 @@ namespace Project.Ecommerce.Infrastructure.Repositories
             }
         }
 
-        public async Task<Products> CreateAsync(ProductCommand command)
+        public async Task<Products> CreateProduct(ProductCommand command)
         {
             Products prod = new Products();
 
@@ -104,6 +103,41 @@ namespace Project.Ecommerce.Infrastructure.Repositories
             }
 
             return prod;
+        }
+
+        public async Task<Products> UpdateProduct(ProductCommand command, int id)
+        {
+            if (id == 0)
+                throw new ArgumentNullException("Id cannot be null!");
+
+            Products prod = new Products();
+
+            using (var data = new EcommerceContext(_context))
+            {
+                prod.Name = command.Name;
+                prod.Description = command.Description;
+                prod.Inventory = command.Inventory;
+                prod.Value = command.Value;
+                prod.Status = true;
+                prod.Image = command.Image;
+            }
+
+            return prod;
+        }
+
+        public async Task DeleteProduct(int id)
+        {
+            Products prod = new Products();
+            prod.Id = id;
+
+            using (var data = new EcommerceContext(_context))
+            {
+                if (data != null)
+                {
+                    data.Products.Remove(prod);
+                    data.SaveChanges();
+                }
+            }
         }
     }
 }

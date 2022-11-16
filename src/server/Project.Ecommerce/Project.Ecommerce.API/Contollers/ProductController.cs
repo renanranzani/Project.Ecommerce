@@ -46,16 +46,18 @@ namespace Project.Ecommerce.API.Contollers
 
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> UpdateProducts(int id)
+        public async Task<IActionResult> UpdateProducts([FromBody] ProductCommand command, int id)
         {
-            return Ok();
+            var updateProduct = await _productService.UpdateAsync(command, id);
+
+            return Ok(new { updateProduct });
         }
 
         [HttpDelete]
         [Route("{id}")]
-        public async Task<IActionResult> DeleteProducts(int id)
+        public async Task DeleteProducts(int id)
         {
-            return Ok();
+             await _productService.DeleteAsync(id);
         }
     }
 }

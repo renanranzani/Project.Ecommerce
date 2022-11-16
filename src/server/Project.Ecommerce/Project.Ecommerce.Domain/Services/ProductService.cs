@@ -35,9 +35,27 @@ namespace Project.Ecommerce.Domain.Services
             if (command == null)
                 throw new ArgumentNullException(nameof(command));
 
-            var addProducts = await _productRepository.CreateAsync(command).ConfigureAwait(false);
+            var addProducts = await _productRepository.CreateProduct(command).ConfigureAwait(false);
 
             return addProducts;
+        }
+
+        public async Task<Products> UpdateAsync(ProductCommand command, int id)
+        {
+            if (command == null)
+                throw new ArgumentNullException(nameof(command));
+
+            var getProductId = await _productRepository.UpdateProduct(command, id);
+
+            return getProductId;
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            if (id == 0)
+                throw new ArgumentNullException();
+
+             await _productRepository.DeleteProduct(id);
         }
     }
 }
