@@ -1,0 +1,11 @@
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

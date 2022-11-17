@@ -1,20 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegistrationComponent } from './Registration/registration/registration.component';
-import { DetailsComponent } from './Details/details/details.component';
-import { GridComponent } from './Grid/grid/grid.component';
+import { DetailsComponent } from './details/details.component';
+import { GridComponent } from './grid/grid.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     DetailsComponent,
-    GridComponent
+    GridComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
