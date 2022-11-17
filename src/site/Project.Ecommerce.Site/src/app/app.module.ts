@@ -8,6 +8,8 @@ import { GridComponent } from './grid/grid.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HeaderComponent } from './shared/header/header.component';
     DetailsComponent,
     GridComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

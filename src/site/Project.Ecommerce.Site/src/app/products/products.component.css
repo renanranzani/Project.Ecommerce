@@ -1,0 +1,13 @@
+.products{
+    margin: 4% 10%;
+}
+
+.products-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.btn{
+    margin: 0 15px 0;
+}

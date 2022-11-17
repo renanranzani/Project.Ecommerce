@@ -1,1 +1,60 @@
-<p>registration works!</p>
+<div class="registration">
+    
+    <div class="registration-grid">
+        <div>
+            <h2>Informações Principais</h2>
+
+            <div class="registration-product">
+                <label for="fname">Nome do Produto</label>
+                <input type="text" id="fname" name="fname"><br><br>
+            </div>
+
+            <div class="registration-options">
+                <div class="registrations-options-input">
+                    <label for="fname">Estoque</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <div class="registrations-options-input">
+                    <label for="fname">Preço</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <div class="registrations-options-input">
+                    <label for="fname">Preço Promocional</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+            </div>
+
+            <div class="registrations-options-info-add"> 
+                <h2>Informações Adicionais</h2>
+
+                <div class="registrations-options-desription">
+                    <label for="fname">Breve Descrição</label>
+                    <textarea type="text" id="fname" name="fname"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Imagens Principais</h2>
+
+            <div >
+                <img src="/img/Chuteira.png" class="rounded mx-auto d-block">
+            </div>
+
+            <p>Extensões permitidas: <b>".jpg"</b> e <b>".png"</b></p>
+            <p><i class="fa fa-exclamation" aria-hidden="true"></i> Recomendamos uma dimensão miníma de 1.000 x 1.000. Tamanho máximo 2 mb.</p>
+        </div>
+    </div>
+
+   <div class="registration-buttons">
+
+        <form action="./products">
+            <input class="btn btn-light" type="reset" style="text-transform:uppercase" value="Cancelar">
+        </form>
+
+        <input class="btn btn-secondary" type="submit" style="text-transform:uppercase" value="Salvar Informações">
+
+   </div>
+</div>

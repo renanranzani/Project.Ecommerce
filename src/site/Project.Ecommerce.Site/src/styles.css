@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+h1{
+    font-family: 'Montserrat', 400;
+    font-size: larger;
+}
+
+h2{
+    font-family: 'Montserrat', 400;
+    font-size: medium;
+    color: #c1c1c1;
+}
+
+p, label{
+    font-family: 'Montserrat', 300;
+    font-size: small;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: absolute;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}

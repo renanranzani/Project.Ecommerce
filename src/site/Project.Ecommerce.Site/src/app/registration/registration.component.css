@@ -1,0 +1,57 @@
+.registration{
+    margin: 4% 10%;
+}
+
+input, textarea{
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.registration-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.registration-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.registration-product{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70px;
+}
+
+.registration-options{
+    display: flex;
+    flex-direction: row;
+}
+
+.registrations-options-input input{
+    display: flex;
+    flex-direction: column;
+    
+    width: 70%;
+}
+
+.registrations-options-info-add{
+    margin-top: 20px;
+}
+
+.registrations-options-desription{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.registrations-options-desription textarea{
+    height: 100px;
+}
+
+.btn{
+    margin: 0 15px 0;
+}
