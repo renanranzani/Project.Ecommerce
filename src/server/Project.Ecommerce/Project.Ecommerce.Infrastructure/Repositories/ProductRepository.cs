@@ -91,7 +91,7 @@ namespace Project.Ecommerce.Infrastructure.Repositories
                 var returnId = await query.ToListAsync();
 
                 returnId.ForEach(x => prod.Id = ++x.Id);
-
+               
                 prod.Name = command.Name;
                 prod.Description = command.Description;
                 prod.Inventory = command.Inventory;
@@ -99,6 +99,7 @@ namespace Project.Ecommerce.Infrastructure.Repositories
                 prod.Status = true;
                 prod.Image = command.Image;
 
+                data.Add(prod);
                 await data.SaveChangesAsync();
             }
 
@@ -114,12 +115,16 @@ namespace Project.Ecommerce.Infrastructure.Repositories
 
             using (var data = new EcommerceContext(_context))
             {
+                prod.Id = id;
                 prod.Name = command.Name;
                 prod.Description = command.Description;
                 prod.Inventory = command.Inventory;
                 prod.Value = command.Value;
                 prod.Status = true;
                 prod.Image = command.Image;
+
+                data.Update(prod);
+                await data.SaveChangesAsync();
             }
 
             return prod;
@@ -130,12 +135,14 @@ namespace Project.Ecommerce.Infrastructure.Repositories
             Products prod = new Products();
             prod.Id = id;
 
+            prod.Status = false;
+
             using (var data = new EcommerceContext(_context))
             {
                 if (data != null)
                 {
-                    data.Products.Remove(prod);
-                    data.SaveChanges();
+                    data.Remove(prod);
+                    await data.SaveChangesAsync();
                 }
             }
         }

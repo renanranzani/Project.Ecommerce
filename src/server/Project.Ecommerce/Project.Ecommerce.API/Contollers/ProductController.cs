@@ -50,7 +50,10 @@ namespace Project.Ecommerce.API.Contollers
         {
             var updateProduct = await _productService.UpdateAsync(command, id);
 
-            return Ok(new { updateProduct });
+            if (updateProduct != null)
+                return Ok(updateProduct);
+
+            return NoContent();
         }
 
         [HttpDelete]
