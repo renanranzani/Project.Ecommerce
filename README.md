@@ -16,7 +16,7 @@
 ---
 ## 🛠 Tecnologias
 
-.NET 5
+.NET 5 <br>
 Angular 14.1.0
 
 ---
