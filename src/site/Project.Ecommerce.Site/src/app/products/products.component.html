@@ -1,10 +1,39 @@
 <div class="products">
     <h1>Listagem de Produtos</h1>
 
-   <div class="products-buttons">
-        <form action="./registration">
-            <input class="btn btn-secondary" type="submit" style="text-transform:uppercase" 
-            value="Cadastrar novo produto">
-        </form>
-   </div>
+    <!-- <div class="container">
+        <div class="card list-product">
+          <div class="card-body">
+            <mat-table #table class="table" [dataSource]="dataSource">
+                <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns;">{{row.name}}</mat-row>
+
+                <ng-container matColumnDef="Nome do Produto">
+                    <th mat-header-cell *matHeaderCellDef class="startTimeColumn"> Nome do Produto </th>
+                    <td mat-cell *matCellDef="let element" class="startTimeResult"> {{ element.name }}</td>
+                </ng-container>
+            </mat-table>
+
+          
+          </div>
+        </div> -->
+
+        <mat-table [dataSource]="dataSource">
+            <!-- User name Definition -->
+            <ng-container matColumnDef="name">
+              <mat-header-cell *matHeaderCellDef> User name </mat-header-cell>
+              <mat-cell *matCellDef="let row"> {{row.name}} </mat-cell>
+            </ng-container>
+          
+            <!-- Header and Row Declarations -->
+            <mat-header-row *matHeaderRowDef="['name']"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: ['name']"></mat-row>
+          </mat-table>
+
+        <div class="products-buttons">
+            <form action="./registration">
+                <input class="btn btn-secondary" type="submit" style="text-transform:uppercase" 
+                value="Cadastrar novo produto">
+            </form>
+        </div>
 </div>

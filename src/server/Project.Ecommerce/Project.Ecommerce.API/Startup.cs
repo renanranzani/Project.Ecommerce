@@ -33,6 +33,7 @@ namespace Project.Ecommerce.API
             );
 
             services.AddControllers();
+            services.AddCors();
 
             services.AddSingleton<IProductService, ProductService>();
             services.AddSingleton<IProductRepository, ProductRepository>();
@@ -41,6 +42,9 @@ namespace Project.Ecommerce.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            var url = "http://localhost:4200";
+            app.UseCors(b => b.WithOrigins(url));
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
