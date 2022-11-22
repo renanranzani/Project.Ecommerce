@@ -20,6 +20,7 @@
 Angular 14.1.0
 
 ---
-##Migrations
+## Migrations
+
 dotnet ef migrations add InitialCreate --project Project.Ecommerce.Infrastructure -s Project.Ecommerce.API
 dotnet ef database update --project Project.Ecommerce.Infrastructure -s Project.Ecommerce.API
